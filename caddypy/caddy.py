@@ -114,7 +114,7 @@ class Caddy:
         return res.content
 
     def config(self, path=None, config_id=None, raw=False):
-        f"""
+        """
         Get caddy config from the server
 
         :param path:
